@@ -37,7 +37,7 @@ bangles.forEach(bangle => {
 });
 
 function buyOnWhatsApp(name, link) {
-  const phoneNumber = "919999999999"; // Your WhatsApp business number (with country code, no +)
+  const phoneNumber = "+919880873466";
   const message = `Hi, I'm interested in the ${name}. Here's the link: ${link}`;
   const encodedMsg = encodeURIComponent(message);
   window.open(`https://wa.me/${phoneNumber}?text=${encodedMsg}`, "_blank");
