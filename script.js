@@ -28,10 +28,11 @@ bangles.forEach(bangle => {
   const div = document.createElement("div");
   div.className = "product";
   div.innerHTML = `
-    <h2>${bangle.name}</h2>
-    <p>Price: ₹${bangle.price}</p>
-    <button onclick="buyOnWhatsApp('${bangle.name}', '${bangle.url}')">Buy on WhatsApp</button>
-  `;
+  <img src="${bangle.image}" alt="${bangle.name}" class="product-image" />
+  <h2>${bangle.name}</h2>
+  <p>Price: ₹${bangle.price}</p>
+  <button onclick="buyOnWhatsApp('${bangle.name}', '${bangle.url}')">Buy on WhatsApp</button>
+`;
   productList.appendChild(div);
 });
 
