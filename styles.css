@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 12px auto;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px #ddd;
+  text-align: center;
+}
+
+button {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
